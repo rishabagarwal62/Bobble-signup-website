@@ -12,14 +12,17 @@
 </html>
 <body>
 
-    <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0&appId=380110219828582&autoLogAppEvents=1" nonce="j90R4XVu"></script>
-    
-<script>
+<!--Facebook JavaScript SDK-->
 
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0&appId=380110219828582&autoLogAppEvents=1" nonce="LdDEJ7i1"></script>
+    
+<!-- For Setting Up the Facebook SDK for Javascript -->
+
+<script>
     window.fbAsyncInit = function() {
       FB.init({
-        appId      : '380110219828582',
+        appId      : '258718028843750',
         cookie     : true,
         xfbml      : true,
         version    : 'v8.0'
@@ -38,14 +41,19 @@
      }(document, 'script', 'facebook-jssdk'));
   </script>
 
+  <!--------------------------------------------------------------->
+
     <div class="login-box">
         <h3 style="text-align: center;">SignUp:</h3>
         <h1 style="text-align: center;">Create your account</h1>
         
         
         <form action="/login" method="POST">
-            
+
+            <!--For FaceBook Plugin to appear-->
             <div class="fb-login-button" data-size="large" data-button-type="login_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false" data-width=""></div>
+            
+            <!--For FaceBook Plugin to appear-->
             <div class="g-signin2" data-onsuccess="onSignIn"></div>
             <div class="social-login">
                 <button class="btn facebook-btn social-btn" type="button"><span><i class="fab fa-facebook-f"></i> Sign up with Facebook</span> </button>
