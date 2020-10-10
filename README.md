@@ -2,6 +2,8 @@
 
 The page was made using HTML, CSS and JAVAscript
 
+
+
 # Used for Linking StyleSheets
 
 <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
@@ -44,17 +46,13 @@ The page was made using HTML, CSS and JAVAscript
      }(document, 'script', 'facebook-jssdk'));
   </script>
   
-# For Facebook Plugin to appear-->
+# For Facebook Plugin to appear
 
             <div class="fb-login-button" data-size="large" data-button-type="login_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false" data-width=""></div>
 
-# For Google Plugin to appear-->
+# For Google Plugin to appear
 
             <div class="g-signin2" data-onsuccess="onSignIn"></div>
- 
- # For Creating Forms
- 
- <form action="/login" method="POST">
   
   
         
