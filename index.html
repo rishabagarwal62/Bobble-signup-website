@@ -4,8 +4,12 @@
         <title>Brand</title>
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
         <link rel='stylesheet' href='styles.css' type='text/css' />
+
+        <!--Google Platform Library-->
         <script src="https://apis.google.com/js/platform.js" async defer></script>
-        <meta name="google-signin-client_id" content="767665643051-vj459prkq8uqbot2kcsh4l0sd0t6fddg.apps.googleusercontent.com.apps.googleusercontent.com">
+
+        <!--To Specify Client ID-->
+        <meta name="google-signin-client_id" content="235481241571-le55mbm5o5q2efbo2rnv5puo57lpu14u.apps.googleusercontent.com.apps.googleusercontent.com">
         <script src="sign.js"></script>
         
     </head>
@@ -50,11 +54,12 @@
         
         <form action="/login" method="POST">
 
-            <!--For FaceBook Plugin to appear-->
+            <!--For Facebook Plugin to appear-->
             <div class="fb-login-button" data-size="large" data-button-type="login_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false" data-width=""></div>
-            
-            <!--For FaceBook Plugin to appear-->
+
+            <!--For Google Plugin to appear-->
             <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
             <div class="social-login">
                 <button class="btn facebook-btn social-btn" type="button"><span><i class="fab fa-facebook-f"></i> Sign up with Facebook</span> </button>
             </div>
