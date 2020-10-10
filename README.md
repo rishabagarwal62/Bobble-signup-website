@@ -4,11 +4,6 @@ The page was made using HTML, CSS and JAVAscript
 
 # A Signup Page
 
-# Used for Linking StyleSheets
-
-<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-        <link rel='stylesheet' href='style.css' type='text/css' />
-
 # For integrating Google Api, the documentation was followed and the below codes were used
 
 <!--Google Platform Library-->
